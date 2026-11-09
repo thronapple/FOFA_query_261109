@@ -1,0 +1,446 @@
+{
+  "checked_on": "2026-11-09",
+  "source": "https://fofa.info/",
+  "surface": "语法弹窗，当前官网表格",
+  "scope": "搜索字段与操作符事实记录；不含完整官网文案或 API 返回字段表。== 的说明来自全局逻辑连接符表，不在各字段三列操作符矩阵内。",
+  "fields": {
+    "ip": {
+      "operators": [
+        "=",
+        "!="
+      ]
+    },
+    "port": {
+      "operators": [
+        "=",
+        "!=",
+        "*="
+      ]
+    },
+    "domain": {
+      "operators": [
+        "=",
+        "!=",
+        "*="
+      ]
+    },
+    "host": {
+      "operators": [
+        "=",
+        "!=",
+        "*="
+      ]
+    },
+    "os": {
+      "operators": [
+        "=",
+        "!=",
+        "*="
+      ]
+    },
+    "server": {
+      "operators": [
+        "=",
+        "!=",
+        "*="
+      ]
+    },
+    "asn": {
+      "operators": [
+        "=",
+        "!=",
+        "*="
+      ]
+    },
+    "org": {
+      "operators": [
+        "=",
+        "!=",
+        "*="
+      ]
+    },
+    "is_domain": {
+      "operators": [
+        "="
+      ]
+    },
+    "is_ipv6": {
+      "operators": [
+        "="
+      ]
+    },
+    "app": {
+      "operators": [
+        "="
+      ]
+    },
+    "fid": {
+      "operators": [
+        "=",
+        "!="
+      ]
+    },
+    "fidv2": {
+      "operators": [
+        "=",
+        "!="
+      ]
+    },
+    "product": {
+      "operators": [
+        "=",
+        "!="
+      ]
+    },
+    "product.version": {
+      "operators": [
+        "=",
+        "!="
+      ]
+    },
+    "category": {
+      "operators": [
+        "=",
+        "!="
+      ]
+    },
+    "type": {
+      "operators": [
+        "="
+      ]
+    },
+    "cloud_name": {
+      "operators": [
+        "=",
+        "!=",
+        "*="
+      ]
+    },
+    "is_cloud": {
+      "operators": [
+        "="
+      ]
+    },
+    "is_fraud": {
+      "operators": [
+        "="
+      ]
+    },
+    "is_honeypot": {
+      "operators": [
+        "="
+      ]
+    },
+    "protocol": {
+      "operators": [
+        "=",
+        "!=",
+        "*="
+      ]
+    },
+    "banner": {
+      "operators": [
+        "=",
+        "!="
+      ]
+    },
+    "banner_hash": {
+      "operators": [
+        "=",
+        "!="
+      ]
+    },
+    "banner_fid": {
+      "operators": [
+        "=",
+        "!="
+      ]
+    },
+    "base_protocol": {
+      "operators": [
+        "=",
+        "!="
+      ]
+    },
+    "title": {
+      "operators": [
+        "=",
+        "!=",
+        "*="
+      ]
+    },
+    "header": {
+      "operators": [
+        "=",
+        "!="
+      ]
+    },
+    "header_hash": {
+      "operators": [
+        "=",
+        "!=",
+        "*="
+      ]
+    },
+    "body": {
+      "operators": [
+        "=",
+        "!="
+      ]
+    },
+    "body_hash": {
+      "operators": [
+        "=",
+        "!="
+      ]
+    },
+    "js_name": {
+      "operators": [
+        "=",
+        "!=",
+        "*="
+      ]
+    },
+    "js_md5": {
+      "operators": [
+        "=",
+        "!=",
+        "*="
+      ]
+    },
+    "cname": {
+      "operators": [
+        "=",
+        "!=",
+        "*="
+      ]
+    },
+    "cname_domain": {
+      "operators": [
+        "=",
+        "!=",
+        "*="
+      ]
+    },
+    "icon_hash": {
+      "operators": [
+        "=",
+        "!="
+      ]
+    },
+    "status_code": {
+      "operators": [
+        "=",
+        "!="
+      ]
+    },
+    "icp": {
+      "operators": [
+        "=",
+        "!=",
+        "*="
+      ]
+    },
+    "sdk_hash": {
+      "operators": [
+        "=",
+        "!="
+      ]
+    },
+    "country": {
+      "operators": [
+        "=",
+        "!="
+      ]
+    },
+    "region": {
+      "operators": [
+        "=",
+        "!="
+      ]
+    },
+    "city": {
+      "operators": [
+        "=",
+        "!="
+      ]
+    },
+    "cert": {
+      "operators": [
+        "=",
+        "!="
+      ]
+    },
+    "cert.subject": {
+      "operators": [
+        "=",
+        "!=",
+        "*="
+      ]
+    },
+    "cert.issuer": {
+      "operators": [
+        "=",
+        "!=",
+        "*="
+      ]
+    },
+    "cert.subject.org": {
+      "operators": [
+        "=",
+        "!=",
+        "*="
+      ]
+    },
+    "cert.subject.cn": {
+      "operators": [
+        "=",
+        "!=",
+        "*="
+      ]
+    },
+    "cert.issuer.org": {
+      "operators": [
+        "=",
+        "!=",
+        "*="
+      ]
+    },
+    "cert.issuer.cn": {
+      "operators": [
+        "=",
+        "!=",
+        "*="
+      ]
+    },
+    "cert.domain": {
+      "operators": [
+        "=",
+        "!=",
+        "*="
+      ]
+    },
+    "cert.is_equal": {
+      "operators": [
+        "="
+      ]
+    },
+    "cert.is_valid": {
+      "operators": [
+        "="
+      ]
+    },
+    "cert.is_match": {
+      "operators": [
+        "="
+      ]
+    },
+    "cert.is_expired": {
+      "operators": [
+        "="
+      ]
+    },
+    "jarm": {
+      "operators": [
+        "=",
+        "!=",
+        "*="
+      ]
+    },
+    "tls.version": {
+      "operators": [
+        "=",
+        "!="
+      ]
+    },
+    "tls.ja3s": {
+      "operators": [
+        "=",
+        "!=",
+        "*="
+      ]
+    },
+    "cert.sn": {
+      "operators": [
+        "=",
+        "!="
+      ]
+    },
+    "cert.not_after.after": {
+      "operators": [
+        "="
+      ]
+    },
+    "cert.not_after.before": {
+      "operators": [
+        "="
+      ]
+    },
+    "cert.not_before.after": {
+      "operators": [
+        "="
+      ]
+    },
+    "cert.not_before.before": {
+      "operators": [
+        "="
+      ]
+    },
+    "after": {
+      "operators": [
+        "="
+      ]
+    },
+    "before": {
+      "operators": [
+        "="
+      ]
+    },
+    "port_size": {
+      "operators": [
+        "=",
+        "!="
+      ]
+    },
+    "port_size_gt": {
+      "operators": [
+        "="
+      ]
+    },
+    "port_size_lt": {
+      "operators": [
+        "="
+      ]
+    },
+    "ip_ports": {
+      "operators": [
+        "="
+      ]
+    },
+    "ip_country": {
+      "operators": [
+        "="
+      ]
+    },
+    "ip_region": {
+      "operators": [
+        "="
+      ]
+    },
+    "ip_city": {
+      "operators": [
+        "="
+      ]
+    },
+    "ip_after": {
+      "operators": [
+        "="
+      ]
+    },
+    "ip_before": {
+      "operators": [
+        "="
+      ]
+    }
+  }
+}

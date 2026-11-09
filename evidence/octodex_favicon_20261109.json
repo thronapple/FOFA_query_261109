@@ -1,0 +1,12 @@
+{
+  "source_page": "https://octodex.github.com/",
+  "icon_url": "https://octodex.github.com/favicon.ico",
+  "status": 200,
+  "content_type": "image/vnd.microsoft.icon",
+  "byte_length": 6518,
+  "checked_on": "2026-11-09",
+  "sha256": "20c67acbdf77f66d5f959a91818950c8873455151a123ea36641ccfda7a52cc3",
+  "algorithm": "MurmurHash3 x86_32, seed=0, signed=True, input=base64.encodebytes(original_bytes)",
+  "icon_hash": -1493334710,
+  "fofa_execution_verified": false
+}
